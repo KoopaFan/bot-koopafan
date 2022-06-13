@@ -10,3 +10,5 @@ if (message.content.toLowerCase().startsWith(prefix + "say"))
     message.channel.send(QueryD + " -" + message.author.tag)
 }
 }
+
+client.login(process.env.token);
